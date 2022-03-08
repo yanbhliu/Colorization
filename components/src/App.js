@@ -107,6 +107,9 @@ function App() {
       <div className="Output">
         <h1>Results</h1>
         <picture>
+            <p> input </p>
+            <img src="inputFileData" alt="" />
+             <p> colorized output </p>
             <img src="outputFileData" alt="" />
         </picture>
       </div>
