@@ -114,9 +114,9 @@ function App() {
         <form onSubmit={handleSubmit}>
           <input type="file" id="image_input" accept=".png" onChange={handleChange} />
           <button type="submit" disabled={buttonDisable}>{buttonText}</button>
-          <div id="display_image"></div>
         </form>
       </div>
+      <div id="display_image"></div>
       <div className="Output">
         <h1>Colorized Results</h1>
         <picture>
