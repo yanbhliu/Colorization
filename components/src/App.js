@@ -108,9 +108,9 @@ function App() {
         <h1>Results</h1>
         <picture>
             <p> input </p>
-            <img src="inputFileData" alt="" />
+            <img src= inputFileData alt="" />
              <p> colorized output </p>
-            <img src="outputFileData" alt="" />
+            <img src= outputFileData alt="" />
         </picture>
       </div>
     </div>
