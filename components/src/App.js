@@ -120,7 +120,8 @@ function App() {
       <div className="Output">
         <h1>Colorized Results</h1>
         <picture>
-            <img src= {outputFileData} alt="" />
+            <img src= 'url(${inputFileData})' alt="" />
+            <img src= 'url(${outputFileData})' alt="" />
         </picture>
       </div>
     </div>
