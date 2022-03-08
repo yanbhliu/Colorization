@@ -116,7 +116,7 @@ function App() {
           <button type="submit" disabled={buttonDisable}>{buttonText}</button>
         </form>
       </div>
-      <div id="display_image"></div>
+
       <div className="Output">
         <h1>Colorized Results</h1>
         <picture>
