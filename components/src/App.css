@@ -38,9 +38,10 @@
 }
 
 #display_image{
-  width: 275px;
-  height: 275px;
+  width: 152px;
+  height: 152px;
   border:1px solid black;
+  align-items: center;
   background-position: center;
   background-size: cover;
 }
