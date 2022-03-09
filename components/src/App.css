@@ -42,6 +42,7 @@
   height: 152px;
   border:1px solid black;
   align-items: center;
+  justify-content: center;
   background-position: center;
   background-size: cover;
 }
