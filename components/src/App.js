@@ -117,9 +117,10 @@ function App() {
         </form>
         <p></p>
       </div>
-     <div id="display_image">
+     <center><div id="display_image">
        < img src={`data:;base64,${inputFileData}`} alt="waiting for input image" />
      </div>
+     </center>
       <div className="Output">
         <h1>Colorized Results</h1>
         <picture>
