@@ -12,6 +12,17 @@ const decodeFileBase64 = (base64String) => {
 //   );
 };
 
+const image_input = document.querySelector("#image_input");
+var uploaded_image;
+
+image_input.addEventListener('change', function() {
+  const reader = new FileReader();
+  reader.addEventListener('load', () => {
+    uploaded_image = reader.result;
+    document.querySelector("#display_image").style.backgroundImage = `url(${uploaded_image})`;
+  });
+  reader.readAsDataURL(this.files[0]);
+});
 
 function App() {
   const [inputFileData, setInputFileData] = React.useState(''); // represented as bytes data (string)
@@ -116,9 +127,9 @@ function App() {
           <input type="file" id="image_input" accept=".png" onChange={handleChange} />
           <button type="submit" disabled={buttonDisable}>{buttonText}</button>
         </form>
-        < img src={`data:;base64,${inputFileData}`} alt="waiting for input image" />
+//         < img src={`data:;base64,${inputFileData}`} alt="waiting for input image" />
       </div>
-
+     <div id="display_image"></div>
       <div className="Output">
         <h1>Colorized Results</h1>
         <picture>
