@@ -127,12 +127,12 @@ function App() {
      
       <div className="Output">
         <h2>Colorized Results</h2>
-        <picture>
+       
         <a href={outputFileData} download="">
         <img src="img src={outputFileData}  alt="" width="152" height="152">
         </a>
 //            <img src={outputFileData} alt="" />
-        </picture>
+      
       </div>
     </div>
   );
