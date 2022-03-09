@@ -116,9 +116,10 @@ function App() {
           <button type="submit" disabled={buttonDisable}>{buttonText}</button>
         </form>
         <p></p>
-        < img src={`data:;base64,${inputFileData}`} alt="waiting for input image" />
       </div>
-     <div id="display_image"></div>
+     <div id="display_image">
+       < img src={`data:;base64,${inputFileData}`} alt="waiting for input image" />
+     </div>
       <div className="Output">
         <h1>Colorized Results</h1>
         <picture>
