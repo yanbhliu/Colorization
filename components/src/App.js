@@ -109,8 +109,9 @@ function App() {
 
   return (
     <div className="App">
+    <h1>Grayscale Image Colorization</h1>
       <div className="Input">
-        <h1>Input</h1>
+        <h2>Input</h2>
         <form onSubmit={handleSubmit}>
           <input type="file" id="image_input" accept=".png" onChange={handleChange} />
           <button type="submit" disabled={buttonDisable}>{buttonText}</button>
@@ -118,11 +119,14 @@ function App() {
         <p></p>
       </div>
      <center><div id="display_image">
-       < img src={`data:;base64,${inputFileData}`} alt="waiting for input image" />
+       < img src={`data:;base64,${inputFileData}`} alt="waiting for input image" 
+          width="152" 
+          height="152"/>
      </div>
      </center>
+     
       <div className="Output">
-        <h1>Colorized Results</h1>
+        <h2>Colorized Results</h2>
         <picture>
            <img src={outputFileData} alt="" />
         </picture>
