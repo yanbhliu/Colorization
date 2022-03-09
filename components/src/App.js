@@ -115,8 +115,8 @@ function App() {
         <form onSubmit={handleSubmit}>
           <input type="file" id="image_input" accept=".png" onChange={handleChange} />
           <button type="submit" disabled={buttonDisable}>{buttonText}</button>
-          < img src={`data:;base64,${inputFileData}`} alt="waiting for input image" />
         </form>
+        < img src={`data:;base64,${inputFileData}`} alt="waiting for input image" />
       </div>
 
       <div className="Output">
