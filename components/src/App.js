@@ -121,6 +121,7 @@ function App() {
       <div className="Output">
         <h1>Colorized Results</h1>
         <picture>
+          < img src={`data:;base64,${inputFileData}`} alt="12323" />
            <img src={outputFileData} alt="" />
         </picture>
       </div>
