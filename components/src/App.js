@@ -110,7 +110,7 @@ function App() {
   return (
     <div className="App">
     <h1>Grayscale Image Colorization</h1>
-      <div className="Input">
+      <div className="Grayscale Input">
         <h2>Input</h2>
         <form onSubmit={handleSubmit}>
           <input type="file" id="image_input" accept=".png" onChange={handleChange} />
