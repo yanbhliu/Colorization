@@ -110,6 +110,7 @@ function App() {
   return (
     <div className="App">
     <h1>Grayscale Image Colorization</h1>
+    <h3>Yanbaihui Liu</h3>
       <div className="Grayscale Input">
         <h2>Input</h2>
         <form onSubmit={handleSubmit}>
