@@ -113,7 +113,7 @@ function App() {
     <h3>Yanbaihui Liu</h3>
       <div className="Grayscale Input">
         <h2>Input</h2>
-//         <p></p>
+        <p>click "Choose File" to upload an grayscale image</p>
         <form onSubmit={handleSubmit}>
           <input type="file" id="image_input" accept=".png" onChange={handleChange} />
           <button type="submit" disabled={buttonDisable}>{buttonText}</button>
@@ -133,7 +133,7 @@ function App() {
            <img src={outputFileData} alt="" />
         </picture>
       </div>
-      <p>For more information about algorithm and details <a href="Colorization/components/src/Colorization.pdf">click here</a>.</p>
+      <p>For more information about algorithm and details <a href="https://github.com/yanbhliu/Colorization/blob/main/components/src/Colorization.pdf">click here</a>.</p>
     </div>
   );
 }
