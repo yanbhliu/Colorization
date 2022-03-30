@@ -136,13 +136,11 @@ function App() {
           height="152"/>
      </div>
      </center>
-//            <img src={outputFileData} alt="" />
         </picture>
       </div>
-//       <p>For more information about algorithm and details <a href="https://github.com/yanbhliu/Colorization/blob/main/components/src/Colorization.pdf">click here</a>.</p>
     <h2>Report</h2>
     <center>
-    <iframe src = "https://drive.google.com/drive/folders/1KO0-m9TWlb2WOQ-2jlzdmYJi_8uYnbRX/preview" width="640" height = "480"></iframe>
+    <iframe src = "https://drive.google.com/file/d/1iEeYnR8MjwQs4ECgiDeNlMZtONfkLRdM/view?usp=sharing" width="640" height = "480"></iframe>
     </center>
     </div>
   );
