@@ -140,7 +140,7 @@ function App() {
       </div>
     <h2>Report</h2>
     <center>
-    <embed src="https://github.com/yanbhliu/Colorization/blob/main/components/src/Colorization.pdf" type="application/pdf" width="640" height = "480" />
+    <embed src="https://drive.google.com/file/d/1iEeYnR8MjwQs4ECgiDeNlMZtONfkLRdM/view?usp=sharing" type="application/pdf" width="640" height = "480" />
     </center>
     </div>
   );
