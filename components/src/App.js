@@ -140,7 +140,7 @@ function App() {
       </div>
     <h2>Report</h2>
     <center>
-    <p>For more information about algorithm and details <a href="https://drive.google.com/file/d/1iEeYnR8MjwQs4ECgiDeNlMZtONfkLRdM/view?usp\u003dsharing">click here</a>.</p>
+    <iframe src="https://drive.google.com/file/d/1iEeYnR8MjwQs4ECgiDeNlMZtONfkLRdM/preview" width="640" height="480" allow="autoplay"></iframe>
     </center>
     </div>
   );
