@@ -111,7 +111,7 @@ function App() {
     <div className="App">
     <h1>Grayscale Image Colorization Demo</h1>
     <h3>Yanbaihui Liu</h3>
-    < img src={'./demo.jpg'} alt="" />
+    < img src={"./demo.jpg"} alt="" width="300" height="152"/>/>
       <div className="Grayscale Input">
         <h2>Input</h2>
         <p>click "Choose File" to upload an grayscale image</p>
