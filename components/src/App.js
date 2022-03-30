@@ -130,10 +130,20 @@ function App() {
       <div className="Output">
         <h2>Colorized Results</h2>
         <picture>
-           <img src={outputFileData} alt="" />
+        <center><div id="display_image">
+       < img src={outputFileData} alt="waiting for result..." 
+          width="152" 
+          height="152"/>
+     </div>
+     </center>
+//            <img src={outputFileData} alt="" />
         </picture>
       </div>
-      <p>For more information about algorithm and details <a href="https://github.com/yanbhliu/Colorization/blob/main/components/src/Colorization.pdf">click here</a>.</p>
+//       <p>For more information about algorithm and details <a href="https://github.com/yanbhliu/Colorization/blob/main/components/src/Colorization.pdf">click here</a>.</p>
+    <h2>Report</h2>
+    <center>
+    <iframe src = "https://drive.google.com/drive/folders/1KO0-m9TWlb2WOQ-2jlzdmYJi_8uYnbRX/preview" width="640" height = "480"></iframe>
+    </center>
     </div>
   );
 }
