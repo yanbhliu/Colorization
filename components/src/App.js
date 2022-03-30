@@ -1,6 +1,5 @@
 import './App.css';
 import React from 'react';
-import 'demo.jpg'
 
 // atob is deprecated but this function converts base64string to text string
 const decodeFileBase64 = (base64String) => {
@@ -110,8 +109,7 @@ function App() {
 
   return (
     <div className="App">
-    <h1>Grayscale Image Colorization</h1>
-    <img src = 'demo.jpg'>
+    <h1>Grayscale Image Colorization Demo</h1>
     <h3>Yanbaihui Liu</h3>
       <div className="Grayscale Input">
         <h2>Input</h2>
