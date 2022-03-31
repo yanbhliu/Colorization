@@ -17,7 +17,7 @@ justify-content: center;}
 }
 
 .Input form label {
-  margin-top: 16px;
+  margin-top: 10px;
   background-color: #0f0ade;
   border-radius: 4px;
   border: none;
@@ -30,8 +30,8 @@ justify-content: center;}
 
 .Input button {
   width: 100%;
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   background-color: #0f0ade;
   border-radius: 4px;
   border: none;
@@ -40,7 +40,7 @@ justify-content: center;}
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 12px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   cursor: pointer;
 }
@@ -58,8 +58,8 @@ justify-content: center;}
 }
 
 .Output {
-  margin: 16px;
-  width: 500px;
+  margin: 10px;
+  width: 200px;
 }
 
 .Output h1 {
@@ -68,8 +68,8 @@ justify-content: center;}
 
 
 #display_image{
-  width: 152px;
-  height: 152px;
+  width: 200px;
+  height: 200px;
   border:1px solid black;
   align-items: center;
   justify-content: center; 
