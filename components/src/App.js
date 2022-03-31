@@ -1,5 +1,6 @@
 import './App.css';
 import React from 'react';
+import demo from './demo.jpg';
 
 // global variables to change where necessary
 const DROPDOWN_API_ENDPOINT = 'https://jgvnzlk00j.execute-api.us-east-1.amazonaws.com/prod/'; // GET/POST REST API 
@@ -158,8 +159,12 @@ function App() {
 
   return (
     <div className="App">
-      <div className="Input">
-        <h1>Input</h1>
+     <h1>Grayscale Image Colorization Demo</h1>
+      <h3>Yanbaihui Liu</h3>
+      <img src={demo} alt="demo" width="304" height="152"/>;
+      <div className="Grayscale Input">
+        <h2>Input</h2>
+        <p>choose from dropdown manual or click "Upload File" to upload an grayscale image, then click submit</p>
         <label htmlFor="demo-dropdown">Demo: </label>
         <select name="Select Image" id="demo-dropdown" value={selectedDropdownFile} onChange={handleDropdown}>
             <option value="">-- Select Demo File --</option>
@@ -170,19 +175,26 @@ function App() {
           <input type="file" id="file-upload" onChange={handleChange} />
           <button type="submit" disabled={buttonDisable}>{submitButtonText}</button>
         </form>
-        <img src={inputImage} alt="" />
+        <img src={inputImage} alt="" 
+          width="200" 
+          height="200"/>
       </div>
       <div className="Output">
-        <h1>Results</h1>
+        <h2>Results</h2>
         <picture>
         <center><div id="display_image">
        < img src={outputFileData} alt="waiting for result..." 
-          width="152" 
-          height="152"/>
+          width="200" 
+          height="200"/>
      </div>
      </center>
      </picture>
       </div>
+
+    <h2>Report</h2>
+    <center>
+    <iframe src="https://drive.google.com/file/d/1iEeYnR8MjwQs4ECgiDeNlMZtONfkLRdM/preview" width="640" height="480" allow="autoplay"></iframe>
+    </center>
     </div>
   );
 }
