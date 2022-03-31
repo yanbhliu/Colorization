@@ -10,6 +10,8 @@ justify-content: center;}
   margin: 16px;
   width: 300px;
   text-align: center;
+   display: flex;
+  justify-content: center;
 }
 
 .Input input[type=file] {
