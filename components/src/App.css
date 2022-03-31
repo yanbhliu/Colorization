@@ -3,7 +3,8 @@
   justify-content: center;
 } */
 
-.App{text-align: center;}
+.App{text-align: center;
+justify-content: center;}
 
 .Input {
   margin: 16px;
