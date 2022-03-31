@@ -176,9 +176,7 @@ function App() {
           <input type="file" id="file-upload" onChange={handleChange} />
           <button type="submit" disabled={buttonDisable}>{submitButtonText}</button>
         </form>
-        <img src={inputImage} alt="" 
-          width="200" 
-          height="200"/>
+        <img src={inputImage} alt="" />
       </div>
       <div className="Output">
         <h2>Results</h2>
