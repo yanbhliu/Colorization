@@ -158,13 +158,11 @@ function App() {
 
 
   return (
-    <div className = "Other">
+    <div className = "App">
          <h1>Grayscale Image Colorization Demo</h1>
          <h3>Yanbaihui Liu</h3>
          <img src={demo} alt="demo" width="304" height="152"/>;
-    </div>
 
-    <div className="App">
       <div className="Input">
         <h2>Input</h2>
         <p>choose from dropdown manual or click "Upload File" to upload an grayscale image, then click submit</p>
@@ -193,9 +191,6 @@ function App() {
      </center>
      </picture>
       </div>
-    </div>
-
- <div className="Other">
     <h2>Report</h2>
     <center>
     <iframe src="https://drive.google.com/file/d/1iEeYnR8MjwQs4ECgiDeNlMZtONfkLRdM/preview" width="640" height="480" allow="autoplay"></iframe>
