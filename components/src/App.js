@@ -1,15 +1,13 @@
 import './App.css';
 import React from 'react';
+import demo from './demo.jpg';
+
+console.log(demo);
 
 // atob is deprecated but this function converts base64string to text string
 const decodeFileBase64 = (base64String) => {
   // From Bytestream to Percent-encoding to Original string
   return "data:image/jpg;base64," + base64String
-//   return decodeURIComponent(
-//     atob(base64String).split("").map(function (c) {
-//       return "%" + ("00" + c.charCodeAt(0).toString(16)).slice(-2);
-//     }).join("")
-//   );
 };
 
 function App() {
@@ -111,7 +109,7 @@ function App() {
     <div className="App">
     <h1>Grayscale Image Colorization Demo</h1>
     <h3>Yanbaihui Liu</h3>
-    < img src={"./demo.jpg"} alt="" width="304" height="152"/>
+     <img src={demo} alt="demo" width="304" height="152"/>;
       <div className="Grayscale Input">
         <h2>Input</h2>
         <p>click "Choose File" to upload an grayscale image</p>
