@@ -1,77 +1,58 @@
-/* .App {
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-} */
-
-.App{text-align: center;
-justify-content: center;}
-
-.Input {
-  margin: 16px;
-  width: 300px;
-  text-align: center;
-   display: flex;
-  justify-content: center;
-}
-
-.Input input[type=file] {
-  display: none;
-}
-
-.Input form label {
-  margin-top: 16px;
-  background-color: #0f0ade;
-  border-radius: 4px;
-  border: none;
+  font-size: calc(10px + 2vmin);
   color: white;
-  padding: 15px 32px;
-  text-align: center;
-  display: block;
-  cursor: pointer;
 }
 
-.Input button {
-  width: 100%;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  background-color: #0f0ade;
-  border-radius: 4px;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  cursor: pointer;
+.App-link {
+  color: #61dafb;
 }
 
-.Input button:disabled, button[disabled] {
-  background-color: #D3D3D3;
-  box-shadow: none;
-  cursor: default;
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-.Input img {
-  width: 100%;
-  height: auto;
-  margin-top: 16px;
+.flex-container {
+    display: flex;
 }
 
-.Output {
-  margin: 16px;
-  width: 500px;
-}
+.flex-child {
+    flex: 1;
+    border: 2px solid yellow;
+}  
 
-.Output h1 {
-  text-align: center;
-}
-
+.flex-child:first-child {
+    margin-right: 20px;
+} 
 
 #display_image{
-  width: 250px;
-  height: 250px;
+  width: 152px;
+  height: 152px;
   border:1px solid black;
   align-items: center;
   justify-content: center; 
