@@ -1,9 +1,9 @@
-.App {
+/* .App {
   display: flex;
   justify-content: center;
-}
+} */
 
-.Other{text-align: center;}
+.App{text-align: center;}
 
 .Input {
   margin: 16px;
