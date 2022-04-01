@@ -163,16 +163,6 @@ function App() {
          <h3>Yanbaihui Liu</h3>
          <img src={demo} alt="demo" width="304" height="152"/>;
 
-         {/* <div   class="search_row">
-       <div class="form-group" style="float:left" >      <%-- 通过左浮动使多个div在一行显示--%>
-          <div class="search_label" >图书名称:</div>    <input type="text" class="editText" name="bookName" />
-       </div>
-       <div class="form-group" style="float:left" >
-           <div class="search_label" >出版社:</div>    <input type="text" class="editText" name="publisher"  />
-       </div>
-       <div style="clear:both"></div>                  <%--清除浮动--%>
-  </div> */}
-
       <div class = "live_demo">
         <div class="Input"  style="float:left">
           <h2>Input</h2>
@@ -192,7 +182,7 @@ function App() {
         </div>
 
         <div class = "Space" style="float:left"> 
-          <p>    </p>
+          <p>  <br />  </p> 
         </div>
 
         <div class="Output"  style="float:left">
