@@ -58,15 +58,13 @@ div{
 }
  
 .div>.div1{	
-	width: 250px;
+	width: 350px;
 	display:inline-block;
-  	justify-content: center;
 
 }
 .div>.div2{	
-	width: 250px;
+	width: 350px;
 	display:inline-block;
-  	justify-content: center;
 }
 
 .div3{
