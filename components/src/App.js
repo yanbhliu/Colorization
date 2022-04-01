@@ -163,7 +163,7 @@ function App() {
          <h3>Yanbaihui Liu</h3>
          <img src={demo} alt="demo" width="304" height="152"/>;
 
-      <div className="Input">
+      <div className="Input"  style="display:inline;">
         <h2>Input</h2>
         <p>use dropdown manual or click "Upload File" to upload an grayscale image, <br />
           then click submit</p>
@@ -179,17 +179,19 @@ function App() {
         </form>
         <img src={inputImage} alt="" />
       </div>
-      <div className="Output">
+
+      <div className="Output" style="display:inline;">
         <h2>Results</h2>
-        <picture>
-        <center><div id="display_image">
-       < img src={outputFileData} alt="waiting for result..." 
-          width="200" 
-          height="200"/>
-     </div>
-     </center>
-     </picture>
+          <picture>
+          <center><div id="display_image">
+            <img src={outputFileData} alt="waiting for result..." 
+            width="200" 
+            height="200"/>
+          </div>
+        </center>
+        </picture>
       </div>
+
     <h2>Report</h2>
     <center>
     <iframe src="https://drive.google.com/file/d/1iEeYnR8MjwQs4ECgiDeNlMZtONfkLRdM/preview" width="640" height="480" allow="autoplay"></iframe>
