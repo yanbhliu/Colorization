@@ -47,10 +47,7 @@
   background-size: cover;
 }
 
-html,body{
-	margin:0;
-	padding:0;
-}
+
 div{
 	text-align:center;
 	
@@ -60,14 +57,10 @@ div{
 	
 }
  
-.div>.div1{	
-	width:50%;
-	height:100px;
+.div1{	
 	display:inline-block;
 }
-.div>.div2{	
-	width:50%;
-	height:100px;
+.div2{	
 	display:inline-block;
 }
 .div3{
