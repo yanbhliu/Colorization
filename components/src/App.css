@@ -59,13 +59,13 @@ div{
  
 .div>.div1{	
 	width: 250px;
-	display: flex;
+	display:inline-block;
   	justify-content: center;
 
 }
 .div>.div2{	
 	width: 250px;
-	display: flex;
+	display:inline-block;
   	justify-content: center;
 }
 
