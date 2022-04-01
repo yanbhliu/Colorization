@@ -164,41 +164,44 @@ function App() {
          <img src={demo} alt="demo" width="304" height="152"/>
 
       <div class = "div">
-        <div class="div1">
-          <h2>Input</h2>
-          <p>use dropdown manual or click "Upload File" to upload an grayscale image, <br />
-            then click submit</p>
-          <label htmlFor="demo-dropdown">Demo: </label>
-          <select name="Select Image" id="demo-dropdown" value={selectedDropdownFile} onChange={handleDropdown}>
-              <option value="">-- Select Demo File --</option>
-              {demoDropdownFiles.map((file) => <option key={file} value={file}>{file}</option>)}
-          </select>
-          <form onSubmit={handleSubmit}>
-            <label htmlFor="file-upload">{fileButtonText}</label>
-            <input type="file" id="file-upload" onChange={handleChange} />
-            <button type="submit" disabled={buttonDisable}>{submitButtonText}</button>
-          </form>
-          <img src={inputImage} alt="" />
-        </div>
 
-        <div class="div2">
-          <h2>Results</h2>
-            <picture>
-            <center><div id="display_image">
-              <img src={outputFileData} alt="waiting for result..." 
-                  width="200" 
-                  height="200"/>
-            </div>
-            </center>
-            </picture>
-        </div>
+          <div class="div1">
+            <h2>Input</h2>
+            <p>use dropdown manual or click "Upload File" to upload an grayscale image, <br />
+              then click submit</p>
+            <label htmlFor="demo-dropdown">Demo: </label>
+            <select name="Select Image" id="demo-dropdown" value={selectedDropdownFile} onChange={handleDropdown}>
+                <option value="">-- Select Demo File --</option>
+                {demoDropdownFiles.map((file) => <option key={file} value={file}>{file}</option>)}
+            </select>
+            <form onSubmit={handleSubmit}>
+              <label htmlFor="file-upload">{fileButtonText}</label>
+              <input type="file" id="file-upload" onChange={handleChange} />
+              <button type="submit" disabled={buttonDisable}>{submitButtonText}</button>
+            </form>
+            <img src={inputImage} alt="" />
+          </div>
+
+          <div class="div2">
+            <h2>Results</h2>
+              <picture>
+              <center><div id="display_image">
+                <img src={outputFileData} alt="waiting for result..." 
+                    width="200" 
+                    height="200"/>
+              </div>
+              </center>
+              </picture>
+          </div>
+      
+        <div class="div3">
+          <h2>Report</h2>
+          <center>
+          <iframe src="https://drive.google.com/file/d/1iEeYnR8MjwQs4ECgiDeNlMZtONfkLRdM/preview" width="640" height="480" allow="autoplay"></iframe>
+          </center></div>
+
       </div>
-      <div class="div3">
-        <h2>Report</h2>
-        <center>
-        <iframe src="https://drive.google.com/file/d/1iEeYnR8MjwQs4ECgiDeNlMZtONfkLRdM/preview" width="640" height="480" allow="autoplay"></iframe>
-        </center></div>
-</div>
+   </div>
   );
 }
 
