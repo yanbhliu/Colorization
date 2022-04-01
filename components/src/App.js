@@ -181,8 +181,8 @@ function App() {
             </form>
             <center><div id="display_image">
                < img src={`data:;base64,${inputFileData}`} alt="waiting for input image (in .png or .jpg)" 
-                  width="152" 
-                  height="152"/>
+                  width="200" 
+                  height="200"/>
              </div>
             </center>
           </div>
