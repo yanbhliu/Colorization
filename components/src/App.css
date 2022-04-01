@@ -57,12 +57,17 @@ div{
 	
 }
  
-.div1{	
+.div>.div1{	
+	width:40%;
+	height:80px;
 	display:inline-block;
 }
-.div2{	
+.div>.div2{	
+	width:40%;
+	height:80px;
 	display:inline-block;
 }
+
 .div3{
 	height:100px;
 }
