@@ -56,7 +56,6 @@ div{
 	
 }
 .div{
-	background-color:#F00;
 	overflow:auto;
 	
 }
@@ -66,7 +65,6 @@ div{
 	width:50%;
 	height:100px;
 	line-height:100px;
-	background-color:#0C0;
 	display:inline-block;
 }
 .div>.div2{
@@ -74,13 +72,11 @@ div{
 	width:50%;
 	height:100px;
 	line-height:100px;
-	background-color:#aaa;
 	display:inline-block;
 }
 .div3{
 	height:200px;
 	line-height:200px;
-	background-color:#FCF;
 }
 
 
