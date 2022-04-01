@@ -58,12 +58,15 @@ div{
 }
  
 .div>.div1{	
-	width:50%;
-	display:inline-block;
+	width: 250px;
+	display: flex;
+  	justify-content: center;
+
 }
 .div>.div2{	
-	width:50%;
-	display:inline-block;
+	width: 250px;
+	display: flex;
+  	justify-content: center;
 }
 
 .div3{
