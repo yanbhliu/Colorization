@@ -163,33 +163,50 @@ function App() {
          <h3>Yanbaihui Liu</h3>
          <img src={demo} alt="demo" width="304" height="152"/>;
 
-      <div className="Input">
-        <h2>Input</h2>
-        <p>use dropdown manual or click "Upload File" to upload an grayscale image, <br />
-          then click submit</p>
-        <label htmlFor="demo-dropdown">Demo: </label>
-        <select name="Select Image" id="demo-dropdown" value={selectedDropdownFile} onChange={handleDropdown}>
-            <option value="">-- Select Demo File --</option>
-            {demoDropdownFiles.map((file) => <option key={file} value={file}>{file}</option>)}
-        </select>
-        <form onSubmit={handleSubmit}>
-          <label htmlFor="file-upload">{fileButtonText}</label>
-          <input type="file" id="file-upload" onChange={handleChange} />
-          <button type="submit" disabled={buttonDisable}>{submitButtonText}</button>
-        </form>
-        <img src={inputImage} alt="" />
-      </div>
+         {/* <div   class="search_row">
+       <div class="form-group" style="float:left" >      <%-- 通过左浮动使多个div在一行显示--%>
+          <div class="search_label" >图书名称:</div>    <input type="text" class="editText" name="bookName" />
+       </div>
+       <div class="form-group" style="float:left" >
+           <div class="search_label" >出版社:</div>    <input type="text" class="editText" name="publisher"  />
+       </div>
+       <div style="clear:both"></div>                  <%--清除浮动--%>
+  </div> */}
 
-      <div className="Output">
-        <h2>Results</h2>
-          <picture>
-          <center><div id="display_image">
-            <img src={outputFileData} alt="waiting for result..." 
-            width="200" 
-            height="200"/>
-          </div>
-        </center>
-        </picture>
+      <div class = "live_demo">
+        <div class="Input"  style="float:left">
+          <h2>Input</h2>
+          <p>use dropdown manual or click "Upload File" to upload an grayscale image, <br />
+            then click submit</p>
+          <label htmlFor="demo-dropdown">Demo: </label>
+          <select name="Select Image" id="demo-dropdown" value={selectedDropdownFile} onChange={handleDropdown}>
+              <option value="">-- Select Demo File --</option>
+              {demoDropdownFiles.map((file) => <option key={file} value={file}>{file}</option>)}
+          </select>
+          <form onSubmit={handleSubmit}>
+            <label htmlFor="file-upload">{fileButtonText}</label>
+            <input type="file" id="file-upload" onChange={handleChange} />
+            <button type="submit" disabled={buttonDisable}>{submitButtonText}</button>
+          </form>
+          <img src={inputImage} alt="" />
+        </div>
+
+        <div class = "Space" style="float:left"> 
+          <p>    </p>
+        </div>
+
+        <div class="Output"  style="float:left">
+          <h2>Results</h2>
+            <picture>
+            <center><div id="display_image">
+              <img src={outputFileData} alt="waiting for result..." 
+                  width="200" 
+                  height="200"/>
+            </div>
+            </center>
+            </picture>
+        </div>
+        <div style="clear:both"></div> 
       </div>
 
     <h2>Report</h2>
