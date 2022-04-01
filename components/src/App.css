@@ -51,19 +51,19 @@
 
 div{
 	text-align:center;
+	position: fixed;
 	
 }
 .div{
-	overflow:auto;
-	
+	overflow:auto;	
 }
  
 .div>.div1{	
-	width:40%;
+	width:50%;
 	display:inline-block;
 }
 .div>.div2{	
-	width:40%;
+	width:50%;
 	display:inline-block;
 }
 
