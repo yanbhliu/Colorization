@@ -162,12 +162,13 @@ function App() {
          <h1>Grayscale Image Colorization Demo</h1>
          <h3>Yanbaihui Liu</h3>
          <img src={demo} alt="demo" width="304" height="152"/>
-
-
-          <div class="div1">
-            <h2>Input</h2>
-            <p>use dropdown manual or click "Upload File" to upload an grayscale image, <br />
+         <p></p>
+         <h2>Demo</h2>
+         <p>use dropdown manual or click "Upload File" to upload an grayscale image, <br />
               then click submit</p>
+
+      <div class = "div">
+          <div class="div1">
             <label htmlFor="demo-dropdown">Demo: </label>
             <select name="Select Image" id="demo-dropdown" value={selectedDropdownFile} onChange={handleDropdown}>
                 <option value="">-- Select Demo File --</option>
@@ -178,11 +179,12 @@ function App() {
               <input type="file" id="file-upload" onChange={handleChange} />
               <button type="submit" disabled={buttonDisable}>{submitButtonText}</button>
             </form>
-            <img src={inputImage} alt="" />
+            < img src={inputImage} alt="waiting for input image (in .png or .jpg)" 
+                width="200" 
+                height="200"/>
           </div>
 
           <div class="div2">
-            <h2>Results</h2>
               <picture>
               <center><div id="display_image">
                 <img src={outputFileData} alt="waiting for result..." 
@@ -192,7 +194,8 @@ function App() {
               </center>
               </picture>
           </div>
- 
+        </div>
+        
         <div class="div3">
           <h2>Report</h2>
           <center>
