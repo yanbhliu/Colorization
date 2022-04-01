@@ -202,7 +202,7 @@ function App() {
         <div class="div3">
           <h2>Report</h2>
           <center>
-          <iframe src="https://drive.google.com/file/d/1iEeYnR8MjwQs4ECgiDeNlMZtONfkLRdM/preview" width="640" height="480" allow="autoplay"></iframe>
+          <iframe src="https://drive.google.com/file/d/1iEeYnR8MjwQs4ECgiDeNlMZtONfkLRdM/preview" width="750" height="480" allow="autoplay"></iframe>
           </center></div>
 
       
