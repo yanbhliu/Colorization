@@ -163,7 +163,6 @@ function App() {
          <h3>Yanbaihui Liu</h3>
          <img src={demo} alt="demo" width="304" height="152"/>
 
-      <div class = "div">
 
           <div class="div1">
             <h2>Input</h2>
@@ -193,8 +192,7 @@ function App() {
               </center>
               </picture>
           </div>
-        </div>
-        
+ 
         <div class="div3">
           <h2>Report</h2>
           <center>
