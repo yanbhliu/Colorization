@@ -164,8 +164,8 @@ function App() {
          <img src={demo} alt="demo" width="304" height="152"/>
          <p></p>
          <h2>Demo</h2>
-         <p>use dropdown manual or click "Upload File" to upload an grayscale image, <br />
-              then click submit</p>
+         <p>Use dropdown manual or click "Upload File" to upload an grayscale image <br />
+              (in .png or .jpg), then click submit. </p>
 
       <div class = "div">
           <div class="div1">
