@@ -165,7 +165,8 @@ function App() {
 
       <div className="Input">
         <h2>Input</h2>
-        <p>choose from dropdown manual or click "Upload File" to upload an grayscale image, then click submit</p>
+        <p>use dropdown manual or click "Upload File" to upload an grayscale image, <br />
+          then click submit</p>
         <label htmlFor="demo-dropdown">Demo: </label>
         <select name="Select Image" id="demo-dropdown" value={selectedDropdownFile} onChange={handleDropdown}>
             <option value="">-- Select Demo File --</option>
