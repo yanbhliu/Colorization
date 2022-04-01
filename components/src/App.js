@@ -163,7 +163,7 @@ function App() {
          <h3>Yanbaihui Liu</h3>
          <img src={demo} alt="demo" width="304" height="152"/>;
 
-      <div className="Input"  style="display:inline;">
+      <div className="Input">
         <h2>Input</h2>
         <p>use dropdown manual or click "Upload File" to upload an grayscale image, <br />
           then click submit</p>
@@ -180,7 +180,7 @@ function App() {
         <img src={inputImage} alt="" />
       </div>
 
-      <div className="Output" style="display:inline;">
+      <div className="Output">
         <h2>Results</h2>
           <picture>
           <center><div id="display_image">
