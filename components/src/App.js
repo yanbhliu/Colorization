@@ -161,10 +161,10 @@ function App() {
     <div className = "App">
          <h1>Grayscale Image Colorization Demo</h1>
          <h3>Yanbaihui Liu</h3>
-         <img src={demo} alt="demo" width="304" height="152"/>;
+         <img src={demo} alt="demo" width="304" height="152"/>
 
-      <div class = "live_demo">
-        <div class="Input"  style="float:left">
+      <div class = "div">
+        <div class="div1">
           <h2>Input</h2>
           <p>use dropdown manual or click "Upload File" to upload an grayscale image, <br />
             then click submit</p>
@@ -181,11 +181,7 @@ function App() {
           <img src={inputImage} alt="" />
         </div>
 
-        <div class = "Space" style="float:left"> 
-          <p>  <br />  </p> 
-        </div>
-
-        <div class="Output"  style="float:left">
+        <div class="div2">
           <h2>Results</h2>
             <picture>
             <center><div id="display_image">
@@ -196,13 +192,12 @@ function App() {
             </center>
             </picture>
         </div>
-        <div style="clear:both"></div> 
       </div>
-
-    <h2>Report</h2>
-    <center>
-    <iframe src="https://drive.google.com/file/d/1iEeYnR8MjwQs4ECgiDeNlMZtONfkLRdM/preview" width="640" height="480" allow="autoplay"></iframe>
-    </center>
+      <div class="div3">
+        <h2>Report</h2>
+        <center>
+        <iframe src="https://drive.google.com/file/d/1iEeYnR8MjwQs4ECgiDeNlMZtONfkLRdM/preview" width="640" height="480" allow="autoplay"></iframe>
+        </center></div>
 </div>
   );
 }
