@@ -166,19 +166,20 @@ function App() {
          <h2>Demo</h2>
          <p>Use dropdown manual or click "Upload File" to upload an grayscale image <br />
               (in .png or .jpg), then click submit. </p>
+    
+        <label htmlFor="demo-dropdown">Demo: </label>
+        <select name="Select Image" id="demo-dropdown" value={selectedDropdownFile} onChange={handleDropdown}>
+            <option value="">-- Select Demo File --</option>
+            {demoDropdownFiles.map((file) => <option key={file} value={file}>{file}</option>)}
+        </select>
+        <form onSubmit={handleSubmit}>
+          <label htmlFor="file-upload">{fileButtonText}</label>
+          <input type="file" id="file-upload" onChange={handleChange} />
+          <button type="submit" disabled={buttonDisable}>{submitButtonText}</button>
+        </form>
 
       <div class = "div">
           <div class="div1">
-            <label htmlFor="demo-dropdown">Demo: </label>
-            <select name="Select Image" id="demo-dropdown" value={selectedDropdownFile} onChange={handleDropdown}>
-                <option value="">-- Select Demo File --</option>
-                {demoDropdownFiles.map((file) => <option key={file} value={file}>{file}</option>)}
-            </select>
-            <form onSubmit={handleSubmit}>
-              <label htmlFor="file-upload">{fileButtonText}</label>
-              <input type="file" id="file-upload" onChange={handleChange} />
-              <button type="submit" disabled={buttonDisable}>{submitButtonText}</button>
-            </form>
             <center><div id="display_image">
                < img src={`data:;base64,${inputFileData}`} alt="waiting for input image (in .png or .jpg)" 
                   width="200" 
