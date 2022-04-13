@@ -54,7 +54,7 @@ div{
 	
 }
 .div{
-	display:inline-block;
+	display:flex;
 }
  
 .div1{	
