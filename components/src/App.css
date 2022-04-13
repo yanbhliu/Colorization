@@ -54,17 +54,15 @@ div{
 	
 }
 .div{
-	
+	display:inline-block;
 }
  
-.div>.div1{	
+.div1{	
 	width: 450px;
-	display:inline-block;
 
 }
-.div>.div2{	
-	width: 450px;
-	display:inline-block;
+.div2{	
+	width: 450px;	
 }
 
 .div3{
